@@ -12,7 +12,7 @@ class PlayerArcher {
 
     World.add(world, this.body);
 
-    Matter.Body.setAngle(this.body, -PI /2); // -90 degree
+    Matter.Body.setAngle(this.body, -PI /2); // -90 degree updated angle to radian using PI
   }
 
   display() {
