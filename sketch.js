@@ -22,7 +22,7 @@ function setup() {
   engine = Engine.create();
   world = engine.world;
 
-  
+  //removed angleMode(DEGREES); 
 
   var options = {
     isStatic: true
